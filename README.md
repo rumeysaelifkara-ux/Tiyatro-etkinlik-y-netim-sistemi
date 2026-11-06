@@ -1,4 +1,24 @@
-# Tiyatro-etkinlik-y-netim-sistemi
-Tiyatro etkinliklerinin, gösterimlerin ve bilet işlemlerinin yönetildiği sistem.
-Tiyatro oyunlarının, gösterimlerin, salonların, oyuncuların ve seyircilerin yönetilmesini sağlayan bir sistem geliştirilecektir. Sistem üzerinden oyun ve gösterim bilgileri, bilet satışları ve ödemeler takip edilebilecektir.
-Temel Tablolar;oyunlar,oyuncular,oyunoyuncular,salonlar,gösterimler,seyirciler,biletler ve ödemelerdir.
+# Tiyatro Etkinlik Yönetim Sistemi
+
+## Proje Amacı
+
+Tiyatro oyunlarının, oyuncuların, gösterimlerin ve bilet işlemlerinin düzenli bir şekilde yönetilmesini sağlayan ilişkisel bir veri tabanı sistemidir. Proje, tiyatro etkinliklerine ait bilgilerin saklanmasını, tablolar arasında bağlantı kurulmasını ve bilet-ödeme süreçlerinin takip edilmesini amaçlamaktadır.
+
+## Veri Tabanı Tabloları
+
+Proje 8 tablodan oluşmaktadır:
+
+1. **oyunlar:** Tiyatro oyunlarının adı, türü, süresi ve yaş sınırı bilgilerini tutar.
+2. **oyuncular:** Tiyatro oyuncularına ait temel bilgileri saklar.
+3. **oyunoyuncular:** Oyuncuların hangi tiyatro oyunlarında görev aldığını gösterir.
+4. **salonlar:** Gösterimlerin yapıldığı salonların adını ve kapasitesini tutar.
+5. **gosterimler:** Oyunların sahneleneceği tarih, saat ve salon bilgilerini saklar.
+6. **seyirciler:** Bilet işlemi gerçekleştiren seyircilere ait bilgileri tutar.
+7. **biletler:** Seyircilere ait biletlerin gösterim ve fiyat bilgilerini tutar.
+8. **odemeler:** Bilet işlemlerine ilişkin ödeme tutarı, türü ve tarih bilgilerini saklar.
+
+## ER Diyagramı
+
+Tablolar arasındaki ilişkileri ve birincil/yabancı anahtarları gösteren ER diyagramı:
+
+![Tiyatro Etkinlik Yönetim Sistemi ER Diyagramı](Diyagram/ER_Diyagrami.png)
