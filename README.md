@@ -19,9 +19,10 @@ Proje 8 tablodan oluşmaktadır:
 
 ## ER Diyagramı
 
-Tablolar arasındaki ilişkileri ve birincil/yabancı anahtarları gösteren ER diyagramı:
-
-```mermaid
-<img width="1722" height="2606" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/3aee9d7b-749e-4569-84da-c92bccf29adb" />
-
-```
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/3aee9d7b-749e-4569-84da-c92bccf29adb"
+    alt="Tiyatro Etkinlik Yönetim Sistemi ER Diyagramı"
+    width="800"
+  />
+</p>
