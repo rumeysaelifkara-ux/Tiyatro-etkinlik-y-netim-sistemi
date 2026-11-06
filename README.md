@@ -22,3 +22,4 @@ Proje 8 tablodan oluşmaktadır:
 Tablolar arasındaki ilişkileri ve birincil/yabancı anahtarları gösteren ER diyagramı:
 
 ![Tiyatro Etkinlik Yönetim Sistemi ER Diyagramı](Diyagram/ER_Diyagrami.png)
+
